@@ -6,9 +6,14 @@ class Snake:
 class Cobra(Snake):
     """Definitely dangerous, yup."""
     
+    def __init__(self):
+        self.likes_music = True
+        self.likes_to_dance = True
+        self.wears_sombreros = True
+    
     def bite(self, other):
         """Deliver a dose of venom."""
-        pass
+        print('You\'ve been bitten by a deadly cobra snake. Ow.')
 
     
 class BoaConstrictor(Snake):
